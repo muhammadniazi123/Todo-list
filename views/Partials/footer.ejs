@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/Css/style.css">
+    <style>
+        html,body{
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+        }
+        @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+        .lol{
+            padding-top: 20px;
+            width: 100%;
+            margin-top: auto;
+            position:absolute;
+            bottom:0;
+            width:100%;
+        }
+        </style>
+    <title>Todo-list</title>
+</head>
+<body>
+    <div class="lol">
+    <footer class=" text-center text-lg-start" >
+        <!-- Copyright -->
+        <div class="text-center p-3 text-light" >
+         Niazi © <%= new Date().getFullYear()  %>
+        </div>
+    </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
