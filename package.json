@@ -11,7 +11,8 @@
   "description": "todolist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "npm start",
+  "build": "npm run build"
   },
   "author": "Niazi",
   "license": "ISC"
